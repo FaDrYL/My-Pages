@@ -71,7 +71,7 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "Hi there is Hoi's Pages \U0001F44B"
+        Title: "Hi there \U0001F44B"
         Content: Welcome to my blog
 
     socialIcons:
@@ -80,7 +80,7 @@ params:
 
     analytics:
         google:
-            SiteVerificationTag: "PagesWeb"
+            SiteVerificationTag: "3201557276"
         bing:
             SiteVerificationTag: "XYZabc"
         yandex:
@@ -92,7 +92,7 @@ params:
         hiddenInSingle: true # hide on single page
 
     editPost:
-        URL: "https://github.com/FaDrYL/My-Pages/content"
+        URL: "https://github.com/FaDrYL/My-Pages/blob/main/content"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
 
