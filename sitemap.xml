@@ -5,6 +5,9 @@
     <loc>http://pages.fadryl.com/</loc>
     <lastmod>2022-01-20T19:44:45+08:00</lastmod>
   </url><url>
+    <loc>http://pages.fadryl.com/about/</loc>
+    <lastmod>2022-01-20T19:44:45+08:00</lastmod>
+  </url><url>
     <loc>http://pages.fadryl.com/posts/</loc>
     <lastmod>2022-01-20T19:44:45+08:00</lastmod>
   </url><url>
@@ -12,6 +15,10 @@
     <lastmod>2022-01-20T19:44:45+08:00</lastmod>
   </url><url>
     <loc>http://pages.fadryl.com/categories/</loc>
+  </url><url>
+    <loc>http://pages.fadryl.com/archives/</loc>
+  </url><url>
+    <loc>http://pages.fadryl.com/search/</loc>
   </url><url>
     <loc>http://pages.fadryl.com/tags/</loc>
   </url>

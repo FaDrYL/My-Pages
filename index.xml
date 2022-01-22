@@ -9,8 +9,23 @@
       <link>http://pages.fadryl.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
     <lastBuildDate>Thu, 20 Jan 2022 19:44:45 +0800</lastBuildDate><atom:link href="http://pages.fadryl.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于我</title>
+      <link>http://pages.fadryl.com/about/</link>
+      <pubDate>Thu, 20 Jan 2022 19:44:45 +0800</pubDate>
+      
+      <guid>http://pages.fadryl.com/about/</guid>
+      <description>Making life easier 🚀
+Intro Hoi Lung Lam
+BCompSc (Adv. CS) at Monash University (2021.12)
+现在是互联网搬砖人一枚 👷‍♂️
+那些昵称们 Hoi / _YL_ / FaDr_YL / FaDrYL / FaDr
+没错这些都是我
+我的头像 我家宝😘兼作者：Wiiiii
+我的一些项目/作品 🙌  简存 · WebSaver+ - [Google Play], [酷安] 网站 - YL&amp;rsquo;s Inn (fadryl.com) 博客 - Hoi&amp;rsquo;s Pages (pages.fadryl.com) 等等（可参考我的昵称们）&amp;hellip;  其它网址链接们 🔗  Github: @_YL_ 酷安: @FaDr_YL 邮箱: FaDrYL@outlook.com 等等&amp;hellip;（就是忘了还有啥）   这个博客 本博客由 Hugo 构建以及使用 PaperMod 主题。</description>
+    </item>
+    
     <item>
       <title>隐私权政策 Private Policy</title>
       <link>http://pages.fadryl.com/posts/private-policy/</link>
@@ -24,6 +39,8 @@
 English We do not collect and save from your social account in any form or sell any information to advertisers or other operators.
 Personal information When you share information through social accounts may be asked to enter the account and password, but that information is management by the system. App does not save account and password in any form or collect and save any personal information in any form on your social account.</description>
     </item>
+    
+    
     
   </channel>
 </rss>
