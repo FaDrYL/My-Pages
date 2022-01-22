@@ -47,15 +47,15 @@ params:
     assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "/img/favicon/favicon.ico"
-        favicon16x16: "/img/favicon/favicon-16x16.png"
-        favicon32x32: "/img/favicon/favicon-32x32.png"
-        apple_touch_icon: "/img/favicon/apple-touch-icon.png"
-        safari_pinned_tab: "/img/favicon/apple-touch-icon.png"
+        favicon: "https://pages.fadryl.com/img/favicon/favicon.ico"
+        favicon16x16: "https://pages.fadryl.com/img/favicon/favicon-16x16.png"
+        favicon32x32: "https://pages.fadryl.com/img/favicon/favicon-32x32.png"
+        apple_touch_icon: "https://pages.fadryl.com/img/favicon/apple-touch-icon.png"
+        safari_pinned_tab: "https://pages.fadryl.com/img/favicon/apple-touch-icon.png"
 
     label:
         text: "Hoi's Pages"
-        # icon: /img/favicon/apple-touch-icon.png
+        # icon: img/favicon/apple-touch-icon.png
         # iconHeight: 35
 
     # profile-mode
