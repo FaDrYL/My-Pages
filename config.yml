@@ -1,13 +1,16 @@
 baseURL: http://pages.fadryl.com/
-languageCode: zh-cn
 title: Hoi's Pages
-
 theme: "PaperMod"
+paginate: 5
 
+defaultContentLanguage: zh
+
+enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+enableEmoji: true
 
 googleAnalytics: G-LM522ZSDSX
  
@@ -18,7 +21,7 @@ minify:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: ExampleSite
-    description: "ExampleSite description"
+    description: "Hoi's Pages - My blog"
     keywords: [Blog, Portfolio, PaperMod]
     author: Hoi (_YL_)
     # author: ["Me", "You"] # multiple authors
@@ -26,6 +29,7 @@ params:
     DateFormat: "January 2, 2006"
     defaultTheme: auto # dark, light
     disableThemeToggle: false
+    hideFooter: true
 
     ShowReadingTime: false
     ShowShareButtons: false
@@ -37,37 +41,41 @@ params:
     comments: false
     hidemeta: false
     hideSummary: false
-    showtoc: false
+    showtoc: true
     tocopen: false
 
     assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "<link / abs url>"
-        favicon16x16: "<link / abs url>"
-        favicon32x32: "<link / abs url>"
-        apple_touch_icon: "<link / abs url>"
-        safari_pinned_tab: "<link / abs url>"
+        favicon: "/img/favicon/favicon.ico"
+        favicon16x16: "/img/favicon/favicon-16x16.png"
+        favicon32x32: "/img/favicon/favicon-32x32.png"
+        apple_touch_icon: "/img/favicon/apple-touch-icon.png"
+        safari_pinned_tab: "/img/favicon/apple-touch-icon.png"
 
     label:
         text: "Hoi's Pages"
-        # icon: /apple-touch-icon.png
+        # icon: /img/favicon/apple-touch-icon.png
         # iconHeight: 35
 
     # profile-mode
     profileMode:
-        enabled: false # needs to be explicitly set
-        title: ExampleSite
-        subtitle: "This is subtitle"
-        imageUrl: "<img location>"
+        enabled: true # needs to be explicitly set
+        title: Hoi (\_YL\_)
+        subtitle: >
+          细水长流  
+          
+          Making life easier 🚀
+        
+        imageUrl: "/img/avatar.webp"
         imageWidth: 120
         imageHeight: 120
-        imageTitle: my image
-        buttons:
-            - name: Posts
-              url: posts
-            - name: Tags
-              url: tags
+        imageTitle: avatar
+        # buttons:
+        #     - name: Posts
+        #       url: posts
+        #     - name: Tags
+        #       url: tags
 
     # home-info mode
     homeInfoParams:
@@ -77,24 +85,18 @@ params:
     socialIcons:
         - name: github
           url: "https://github.com/FaDrYL"
+        - name: "rss"
+          url: "/index.xml"
 
-    analytics:
-        google:
-            SiteVerificationTag: "3201557276"
-        bing:
-            SiteVerificationTag: "XYZabc"
-        yandex:
-            SiteVerificationTag: "XYZabc"
+    # cover:
+    #     hidden: true # hide everywhere but not in structured data
+    #     hiddenInList: true # hide on list pages and home
+    #     hiddenInSingle: true # hide on single page
 
-    cover:
-        hidden: true # hide everywhere but not in structured data
-        hiddenInList: true # hide on list pages and home
-        hiddenInSingle: true # hide on single page
-
-    editPost:
-        URL: "https://github.com/FaDrYL/My-Pages/blob/main/content"
-        Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
+    # editPost:
+    #     URL: "https://github.com/FaDrYL/My-Pages/blob/main/content"
+    #     Text: "Suggest Changes" # edit text
+    #     appendFilePath: true # to append file path to Edit link
 
     # for search
     # https://fusejs.io/api/options.html
@@ -106,20 +108,33 @@ params:
         threshold: 0.4
         minMatchCharLength: 0
         keys: ["title", "permalink", "summary", "content"]
-#menu:
-    #main:
+
+menu:
+    main:
+        - identifier: posts
+          name: 文章
+          url: posts/
+          weight: 10
+        - identifier: archives
+          name: 归档
+          url: archives/
+          weight: 20
+        - name: 标签
+          url: tags/
+          weight: 30
         #- identifier: categories
         #  name: categories
         #  url: /categories/
-        #  weight: 10
-        #- identifier: tags
-        #  name: tags
-        #  url: /tags/
-        #  weight: 20
-        #- identifier: about
-        #  name: about
-        #  url: /about/
-        #  weight: 30
+        #  weight: 40
+        - identifier: about
+          name: 关于
+          url: about/
+          weight: 50
+        - identifier: search
+          name: 搜索
+          url: search/
+          weight: 60
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
@@ -129,3 +144,31 @@ params:
 #         guessSyntax: true
 #         lineNos: true
 #         style: monokai
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+
+  instagram:
+    disabled: false
+    simple: true
+
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+
+  googleAnalytics:
+    anonymizeIP: true
+    respectDoNotTrack: true

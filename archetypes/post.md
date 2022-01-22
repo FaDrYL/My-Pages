@@ -1,7 +1,11 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-tags: [""]
-draft: true
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
 description: ""
+date: {{ .Date }}
+lastmod: {{ .Date }}
+draft: false
+showToc: true
+weight: false
+categories: [""]
+tags: [""]
 ---
