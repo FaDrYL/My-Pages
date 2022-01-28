@@ -38,7 +38,7 @@ params:
     ShowCodeCopyButtons: false
     disableSpecial1stPost: false
     disableScrollToTop: false
-    comments: false
+    comments: true
     hidemeta: false
     hideSummary: false
     showtoc: true
@@ -55,7 +55,7 @@ params:
 
     label:
         text: "Hoi's Pages"
-        # icon: img/favicon/apple-touch-icon.png
+        # icon: /img/favicon/apple-touch-icon.png
         # iconHeight: 35
 
     # profile-mode

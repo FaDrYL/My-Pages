@@ -1,5 +1,5 @@
 ---
-title: "关于我"
+title: "关于我（和这个博客）"
 date: 2022-01-20T19:44:45+08:00
 draft: false
 hidemeta: true
@@ -8,6 +8,7 @@ searchHidden: true
 ShowBreadCrumbs: false
 ShowPostNavLinks: false
 showtoc: false
+comments: false
 ---
 Making life easier :rocket:  
 
@@ -24,7 +25,7 @@ BCompSc (Adv. CS) at Monash University (2021.12)
 我家宝:kissing_heart:兼作者：**Wiiiii**
 
 ## 我的一些项目/作品 :raised_hands:
-- **简存 · WebSaver+** - [[Google Play]](https://play.google.com/store/apps/details?id=com.fadryl.websaverplus), [[酷安]](https://www.coolapk.com/apk/286289)  
+- **简存+ · WebSaver+** - [[Google Play]](https://play.google.com/store/apps/details?id=com.fadryl.websaverplus), [[酷安]](https://www.coolapk.com/apk/286289)  
 - 网站 - **YL's Inn** ([fadryl.com](https://fadryl.com/))  
 - 博客 - **Hoi's Pages** ([pages.fadryl.com](https://pages.fadryl.com/))  
 - 等等（可参考我的昵称们）...
@@ -38,7 +39,9 @@ BCompSc (Adv. CS) at Monash University (2021.12)
 ---
 
 ## 这个博客
-本博客由 [Hugo](https://gohugo.io/) 构建以及使用 [PaperMod](https://github.com/adityatelange/hugo-PaperMod) 主题。
+本博客由 [Hugo](https://gohugo.io/) 构建以及使用 [PaperMod](https://github.com/adityatelange/hugo-PaperMod) 主题。  
+
+评论系统由 [Waline](https://waline.js.org/)，[Vercel](https://vercel.com/) 及 [LeanCloud](https://leancloud.app/) 提供支持。  
 
 另外，本站是[开源](https://github.com/FaDrYL/Hoi-s-Pages)的。
 

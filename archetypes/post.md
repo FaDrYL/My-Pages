@@ -3,7 +3,7 @@ title: "{{ replace .TranslationBaseName "-" " " | title }}"
 description: ""
 date: {{ .Date }}
 lastmod: {{ .Date }}
-draft: false
+draft: true
 showToc: true
 weight: false
 categories: [""]

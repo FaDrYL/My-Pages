@@ -2,6 +2,8 @@
 title: "隐私权政策 Private Policy"
 date: 2022-01-20T19:44:45+08:00
 draft: false
+comments: false
+ShowPostNavLinks: false
 ---
 
 ## 中文
@@ -16,7 +18,7 @@ draft: false
 
 使用本App即表示您同意此隐私政策的条款和条件。如果您不同意本政策，请不要使用该App。我们保留权利，在我们決定更改，修改，增加或刪除本政策的部分，在任何時候。请定期浏览此网页查阅任何修改。如果您继续使用我们的App以后的任何更改这些条款的发布将意味着你已经接受了这些调整。
 
-联络信箱: fadryl@outlook.com
+联络邮箱: fadryl@outlook.com
 
 ## English
 
