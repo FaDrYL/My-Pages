@@ -9,7 +9,17 @@
       <link>http://pages.fadryl.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 20 Jan 2022 19:44:45 +0800</lastBuildDate><atom:link href="http://pages.fadryl.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Nov 2022 19:37:00 +0800</lastBuildDate><atom:link href="http://pages.fadryl.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>简历 Résumé</title>
+      <link>http://pages.fadryl.com/posts/resume/</link>
+      <pubDate>Mon, 21 Nov 2022 19:37:00 +0800</pubDate>
+      
+      <guid>http://pages.fadryl.com/posts/resume/</guid>
+      <description>Resume Education Monash University Dec 2021 Bachelor of Computer Science Clayton, VIC, AUS Coursework: Advanced Data Structure and Algorithm; Databases; Modelling for Data Analysis; Big Data Management and Processing; Theory of Computation; Artificial Intelligence; Parallel Computing; Deep Learning.
+Monash College OCT 2019 Diploma of Engineering (Information Technology) Clayton, VIC, AUS Coursework: Introduction to Algorithm and Programming; Introduction to Computer System, Networks and Security; Computing for Engineers; Foundations of 3D; Fundamentals of C++.</description>
+    </item>
+    
     <item>
       <title>隐私权政策 Private Policy</title>
       <link>http://pages.fadryl.com/posts/private-policy/</link>

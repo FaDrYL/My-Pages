@@ -9,7 +9,17 @@
       <link>http://pages.fadryl.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 20 Jan 2022 19:44:45 +0800</lastBuildDate><atom:link href="http://pages.fadryl.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Nov 2022 19:37:00 +0800</lastBuildDate><atom:link href="http://pages.fadryl.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>简历 Résumé</title>
+      <link>http://pages.fadryl.com/posts/resume/</link>
+      <pubDate>Mon, 21 Nov 2022 19:37:00 +0800</pubDate>
+      
+      <guid>http://pages.fadryl.com/posts/resume/</guid>
+      <description>Resume Education Monash University Dec 2021 Bachelor of Computer Science Clayton, VIC, AUS Coursework: Advanced Data Structure and Algorithm; Databases; Modelling for Data Analysis; Big Data Management and Processing; Theory of Computation; Artificial Intelligence; Parallel Computing; Deep Learning.
+Monash College OCT 2019 Diploma of Engineering (Information Technology) Clayton, VIC, AUS Coursework: Introduction to Algorithm and Programming; Introduction to Computer System, Networks and Security; Computing for Engineers; Foundations of 3D; Fundamentals of C++.</description>
+    </item>
+    
     <item>
       <title>关于我（和这个博客）</title>
       <link>http://pages.fadryl.com/about/</link>
@@ -23,7 +33,8 @@ BCompSc (Adv. CS) at Monash University (2021.12)
 那些昵称们 Hoi / _YL_ / FaDr_YL / FaDrYL / FaDr
 没错这些都是我
 我的头像 我家宝😘兼作者：Wiiiii
-我的一些项目/作品 🙌  简存+ · WebSaver+ - [Google Play], [酷安] 网站 - YL&amp;rsquo;s Inn (fadryl.com) 博客 - Hoi&amp;rsquo;s Pages (pages.fadryl.com) 等等（可参考我的昵称们）&amp;hellip;  其它网址链接们 🔗  Github: @_YL_ 酷安: @FaDr_YL 邮箱: FaDrYL@outlook.com 等等&amp;hellip;（就是忘了还有啥）   这个博客 本博客由 Hugo 构建以及使用 PaperMod 主题。</description>
+我的一些项目/作品 🙌 简存+ · WebSaver+ - [Google Play], [酷安] 网站 - YL&amp;rsquo;s Inn (fadryl.com) 博客 - Hoi&amp;rsquo;s Pages (pages.fadryl.com) 等等（可参考我的昵称们）&amp;hellip; 其它网址链接们 🔗 Github: @_YL_ 酷安: @FaDr_YL 邮箱: FaDrYL@outlook.com 等等&amp;hellip;（就是忘了还有啥） 这个博客 本博客由 Hugo 构建以及使用 PaperMod 主题。
+评论系统由 Waline，Vercel 及 LeanCloud 提供支持。</description>
     </item>
     
     <item>
