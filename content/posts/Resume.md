@@ -9,6 +9,7 @@ ShowBreadCrumbs: false
 ShowPostNavLinks: false
 showtoc: true
 comments: false
+cssFilePath: /css/resume.css
 ---
 
 ## Resume
@@ -61,6 +62,17 @@ logic into different inheritance layers for more customizable and extendibility.
 - Supported custom subscription channel, that provides the feasibility of adding general business logic around the trigger of subscriber. e.g. using a custom channel to add performance tracing for some specific subscribers. 
 - Supported async subscription. Uses thread pool to distribute the event to subscribers who registered as async, other than get the event in the same thread (serial).
 
+
+| WebSaver  |       Android App · 2020 |
+|:----------|-------------------------:|
+| 独立开发者 | [com.yl.fadr.websaver (Google Play)](https://play.google.com/store/apps/details?id=com.yl.fadr.websaver) |
+
+
+| DateStamp  |       Android App · 2019 |
+|:-----------|-------------------------:|
+| 独立开发者  | [com.yl.fadr.datestamp (Google Play)](https://play.google.com/store/apps/details?id=com.yl.fadr.datestamp) |
+
+
 ## 简历
 ### 教育经历
 | Monash University                          |        Dec 2021 |
@@ -78,7 +90,6 @@ logic into different inheritance layers for more customizable and extendibility.
 **相关课程:** 编程及算法基础; 计算机系统、网络、安全基础; 工程计算; 3D 建模基础; C++基础
 
 ### 工作经验
-安卓开发工程师 深圳
 | Shopee        | Mar 2022 - Nov 2022 |
 |:--------------|--------------------:|
 | 安卓开发工程师 |                深圳 |
@@ -95,12 +106,13 @@ logic into different inheritance layers for more customizable and extendibility.
 | 独立开发者       | [com.fadryl.websaverplus (Google Play)](https://play.google.com/store/apps/details?id=com.fadryl.websaverplus) |
 
 - 允许用户将网页内容另存为多个离线格式。
-- 双版本累计下载量 8k+（酷安：WebSaver+ / WebSaver）。
+- 双版本累计下载量 8k+（酷安：[WebSaver+](https://www.coolapk.com/apk/com.fadryl.websaverplus) / [WebSaver](https://www.coolapk.com/apk/250554)）。
 - UI 部分完全由 Jetpack Compose 编写取代传统 XML 布局写法，与重构前相比减少了 25% 的 UI 组件重复。
-- 通过 Kotlin 对老版 app（WebSaver (酷安) / WebSaver (Google Play)）进行重构，以及运用协程、Jetpack 相关库和 MVVM 结构，使开发、处理流程有了 20% 的优化。
+- 通过 Kotlin 对老版 app（[WebSaver (酷安)](https://www.coolapk.com/apk/250554) / [WebSaver (Google Play)](https://play.google.com/store/apps/details?id=com.yl.fadr.websaver)）进行重构，以及运用协程、Jetpack 相关库和 MVVM 结构，使开发、处理流程有了 20% 的优化。
 - 技术运用: Kotlin; SQLite; MVVM; Jetpack 相关: Compose, Room, LiveData, DataStore。
 
-| EventShuttle |       Android Library (Kotlin) · 2022 |
+
+| EventShuttle  |       Android Library (Kotlin) · 2022 |
 |:-------------|--------------------------------------:|
 | 独立开发者   | [FaDrYL / EventShuttle (GitHub)](https://github.com/FaDrYL/EventShuttle) |
 
@@ -109,3 +121,12 @@ logic into different inheritance layers for more customizable and extendibility.
 - 支持自定义订阅通道，可以在相关订阅者被触发前后做相关操作，如：使用通道添加性能监控。
 - 支持基于线程池的异步订阅，使用线程池对异步订阅者进行事件分发，非异步订阅者会在同线程接收事件。
 
+
+| 网页另存为 · WebSaver  |       Android App · 2020 |
+|:----------|-------------------------:|
+| 独立开发者 | [com.yl.fadr.websaver (Google Play)](https://play.google.com/store/apps/details?id=com.yl.fadr.websaver) |
+
+
+| 日期戳 · DateStamp  |       Android App · 2019 |
+|:-----------|-------------------------:|
+| 独立开发者  | [com.yl.fadr.datestamp (Google Play)](https://play.google.com/store/apps/details?id=com.yl.fadr.datestamp) |
