@@ -9,7 +9,7 @@ ShowBreadCrumbs: false
 ShowPostNavLinks: false
 showtoc: true
 comments: false
-cssFilePath: css/resume.css
+cssFilePath: /css/resume.css
 ---
 
 ## Resume

@@ -2,14 +2,11 @@
 add this to frontmatter:
 ---
     ...
-    cssFilePath: css/resume.css 
+    cssFilePath: /css/resume.css 
     ...
 ---
 -->
 
 {{ with .Params.cssFilePath }}
-    {{ $url := (printf "%s%s" $.Site.BaseURL . ) }}
-    <link rel="stylesheet" type="text/css" href="{{ $url }}" />
-    <p>{{ $url }}</p>
-    
+    <link rel="stylesheet" type="text/css" href="{{ relURL . }}" />
 {{ end }}
