@@ -20,8 +20,8 @@ minify:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: ExampleSite
-    description: "Hoi's Pages - My blog"
+    title: Hoi's Pages
+    description: "Hoi's Pages - My blog. A place to share my thoughts"
     keywords: [Blog, Portfolio, PaperMod]
     author: Hoi (_YL_)
     # author: ["Me", "You"] # multiple authors
@@ -115,17 +115,17 @@ menu:
           name: 文章
           url: posts/
           weight: 10
-        - identifier: archives
-          name: 归档
-          url: archives/
+        - identifier: categories
+          name: 分类
+          url: categories/
           weight: 20
         - name: 标签
           url: tags/
           weight: 30
-        #- identifier: categories
-        #  name: categories
-        #  url: /categories/
-        #  weight: 40
+        - identifier: archives
+          name: 归档
+          url: archives/
+          weight: 40
         - identifier: about
           name: 关于
           url: about/
