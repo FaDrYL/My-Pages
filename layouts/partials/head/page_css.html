@@ -1,0 +1,12 @@
+<!-- 
+add this to frontmatter:
+---
+    ...
+    cssFilePath: /css/resume.css 
+    ...
+---
+-->
+
+{{ with .Params.cssFilePath }}
+    <link rel="stylesheet" type="text/css" href="{{ relURL . }}" />
+{{ end }}
