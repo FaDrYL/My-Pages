@@ -57,10 +57,11 @@ logic into different inheritance layers for more customizable and extendibility.
 |:---------------------|--------------------------------------:|
 | Individual developer | [FaDrYL / EventShuttle (GitHub)](https://github.com/FaDrYL/EventShuttle) |
 
-- As a self-implemented and simplified EventBus with abilities of event subscribe and distribution. 
+- As a self-implemented and simplified EventBus with abilities of event subscribe and distribution, with supports of multiprocessing distribution.
 - Uses KSP (Kotlin Symbolic Processing) for the annotation processor, which allowed of use annotation to register the event subscriber, for function/method. 
 - Supported custom subscription channel, that provides the feasibility of adding general business logic around the trigger of subscriber. e.g. using a custom channel to add performance tracing for some specific subscribers. 
 - Supported async subscription. Uses thread pool to distribute the event to subscribers who registered as async, other than get the event in the same thread (serial).
+- Supported multiprocessing (Apps) event distribution, that uses AIDL and Binder to communicate. The App side can choose a specific strategy for the implementation. p.s. The current impl is similar to Mesh Architecture in WebRTC.
 
 
 | WebSaver  |       Android App · 2020 |
@@ -116,10 +117,11 @@ logic into different inheritance layers for more customizable and extendibility.
 |:-------------|--------------------------------------:|
 | 独立开发者   | [FaDrYL / EventShuttle (GitHub)](https://github.com/FaDrYL/EventShuttle) |
 
-- 类似于 EventBus 的简版事件订阅及分发库。
+- 类似于 EventBus 的简版事件订阅及分发库，并支持跨 App 分发。
 - 使用 KSP 实现注解处理器，以实现通过注解来实现相关函数对事件的订阅。
 - 支持自定义订阅通道，可以在相关订阅者被触发前后做相关操作，如：使用通道添加性能监控。
 - 支持基于线程池的异步订阅，使用线程池对异步订阅者进行事件分发，非异步订阅者会在同线程接收事件。
+- 支持跨进程（App）分发，使用 AIDL 和 Binder 进行通信，可指定具体策略，目前实现策略类似 WebRTC 中的 Mesh。
 
 
 | 网页另存为 · WebSaver  |       Android App · 2020 |
