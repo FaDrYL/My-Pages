@@ -1,7 +1,7 @@
 ---
 title: "简历 Résumé"
 date: 2022-11-21T19:37:00+08:00
-draft: false
+draft: true
 hidemeta: true
 disableShare: true
 searchHidden: true
