@@ -23,6 +23,8 @@ tags: ["android", "process", "thread", "coroutine", "kotlin", "rust", "tokio"]
 
 #### Out Of Memory (OOM)
 
+### 僵尸进程/孤儿进程
+
 ### 进程间通信 Inter-process Communication (IPC)
 
 ### Android 中的 IPC
